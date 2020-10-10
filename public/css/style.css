@@ -1,0 +1,28 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.admin--logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+.admin--logo {   
+    margin-right: 7px;
+}
+.navbar-badge {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: .6rem;
+    font-weight: 300;
+    padding: 2px 4px;
+}
+a.alert-info:focus, a.alert-info:hover, a.bg-info:focus, a.bg-info:hover, a.label-info:focus, a.label-info:hover, button.alert-info:focus, button.alert-info:hover, button.bg-info:focus, button.bg-info:hover, button.label-info:focus, button.label-info:hover {
+	background-color: #117a8b!important;
+}

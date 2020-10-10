@@ -72,7 +72,7 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="fa fa-comments-o"></i>
+                        <i class="fa fa-user"></i>
                         <span class="badge badge-danger navbar-badge">Info</span>
                         
                     </a>
@@ -144,8 +144,8 @@
                             <a href="../widgets.html" class="nav-link">
                                 <i class="nav-icon fa fa-th"></i>
                                 <p>
-                                    Widgets
-                                    <!-- <span class="right badge badge-danger">New</span> -->
+                                    Category
+                                    
                                 </p>
                             </a>
                         </li>
@@ -153,8 +153,8 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fa fa-pie-chart"></i>
                                 <p>
-                                    Charts
-                                    <!-- <i class="right fa fa-angle-left"></i> -->
+                                    Posts
+                                    <i class="right fa fa-angle-left"></i>
                                 </p>
                             </a>                            
                         </li>

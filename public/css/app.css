@@ -8843,6 +8843,7 @@ body,
 .brand-image {
   float: left;
   line-height: .8;
+  max-height: 34px;
   width: auto;
   margin-left: .8rem;
   margin-right: .5rem;
@@ -8889,6 +8890,11 @@ body,
 .user-panel .image {
   padding-left: 0.8rem;
   display: inline-block;
+}
+
+.user-panel img {
+  width: 2.1rem;
+  height: auto;
 }
 
 .user-panel .info {
@@ -16466,7 +16472,7 @@ input[type=button].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 17rem;
+  min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 0.9rem;
@@ -17874,8 +17880,8 @@ input[type=button].btn-block {
 }
 
 .navbar-expand .navbar-nav .nav-link {
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .navbar-expand > .container,
@@ -20052,7 +20058,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8!important;
+  background-color: #6cb2eb !important;
 }
 
 a.bg-info:hover,

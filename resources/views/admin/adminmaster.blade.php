@@ -19,8 +19,8 @@
 
 </head>
 
-<body class="hold-transition sidebar-mini">
-    <div class="wrapper">
+<body class="hold-transition sidebar-mini" >
+    <div class="wrapper" id="app">
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-dark bg-info border-bottom">
             <!-- Left navbar links -->
@@ -73,14 +73,15 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
                         <i class="fa fa-user"></i>
-                        <span class="badge badge-danger navbar-badge">Info</span>
+                        <!-- <span class="badge badge-danger navbar-badge">Info</span> -->
                         
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                         <div class="dropdown-item">
                             <!-- info Start -->
                             <div class="media">
-                                <img src="{{ asset('assets/admin/default/logo-admin.jpg') }}" alt="User Avatar" class="admin--logo">
+                                <!-- <img src="{{ asset('assets/admin/default/logo-admin.jpg') }}" alt="User Avatar" class="admin--logo"> -->
+                                <img src="{{ Auth::user()->photo }}" alt="User Avatar" class="admin--logo">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">{{ Auth::user()->name }}
                                       <span class="float-right text-sm text-danger"><i class="fa fa-star"></i></span>
@@ -119,7 +120,8 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar elevation-4 sidebar-light-info">
             <a href="#" class="brand-link bg-info">
-                <img src="{{ asset('assets/admin/default/logo-admin.jpg') }}" alt="AdminLTE Logo" class="brand-image admin--logo elevation-3" style="opacity: .8">
+                <!-- <img src="{{ asset('assets/admin/default/logo-admin.jpg') }}" alt="AdminLTE Logo" class="brand-image admin--logo elevation-3" style="opacity: .8"> -->
+                <img src="{{ Auth::user()->photo }}" alt="AdminLTE Logo" class="brand-image admin--logo elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">{{ Auth::user()->name }}</span>
             </a>
             <!-- Sidebar -->

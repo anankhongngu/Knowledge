@@ -119,9 +119,8 @@
 
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar elevation-4 sidebar-light-info">
-            <a href="#" class="brand-link bg-info">
-                <!-- <img src="{{ asset('assets/admin/default/logo-admin.jpg') }}" alt="AdminLTE Logo" class="brand-image admin--logo elevation-3" style="opacity: .8"> -->
-                <img src="{{ Auth::user()->photo }}" alt="AdminLTE Logo" class="brand-image admin--logo elevation-3" style="opacity: .8">
+            <a href="#" class="brand-link bg-info">            
+                <img src="{{ Auth::user()->photo }}" alt="AdminLTE Logo" class="brand-image admin--logo elevation-3" style="opacity: .8">                
                 <span class="brand-text font-weight-light">{{ Auth::user()->name }}</span>
             </a>
             <!-- Sidebar -->
